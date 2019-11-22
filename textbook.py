@@ -19,5 +19,3 @@ class Book():
         self.add = add
         self.deduct = deduct
 
-        if num < 5:
-
