@@ -4,5 +4,6 @@ class Person():
         self.last = last_name
         self.age = age
 
-        def
+    def description(self):
+        print(f"{self.first} {self.last}, {self.age}")
 

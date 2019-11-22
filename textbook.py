@@ -1,11 +1,23 @@
+from person import Person
 
 class Book():
-    def __init__(self,title,author,edition,ISBN_number,publisher,year_published,quantity,price):
+    def __init__(self,title,first, last, age,edition,ISBN_number,publisher,year_published,quantity,price):
         self.title = title
-        self.author = Person()
+        self.author = Person(first, last, age)
         self.edition = edition
-        self.nuber = ISBN_number
+        self.number = ISBN_number
         self.publisher = publisher
         self.year = year_published
         self.quantity = quantity
         self.price = price
+
+    def textbook(self):
+        print(f"{self.title}, {self.author}, {self.edition}, {self.number}, {}")
+
+    def quantity(self, inventory, add, deduct):
+        self.inventory = inventory
+        self.add = add
+        self.deduct = deduct
+
+        if num < 5:
+
