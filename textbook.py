@@ -21,6 +21,6 @@ class Book():
         if self.quantity >= qty:
             self.quantity = self.quantity - qty
             return 0
-        else
+        else:
             return 1
 
