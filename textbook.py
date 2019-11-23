@@ -12,7 +12,7 @@ class Book():
         self.price = price
 
     def textbook(self):
-        print(f"{self.title}, {self.author}, {self.edition}, {self.number}, {}")
+        print(f"{self.title}, {self.author}, {self.edition}, {self.number}, {self.price}, {self.year}, {self.quantity}, {self. price}")
 
     def add(self,qty):
         self.quantity = self.quantity + qty
