@@ -13,8 +13,7 @@ class Book():
 
     def textbook(self):
         print(f"{self.title}, {self.author}, {self.edition}, {self.number}, {}")
-        
-    #This should be two methods, one to add to inventory and one to remove
+
     def quantity(self, inventory, add, deduct):
         self.inventory = inventory
         self.add = add
