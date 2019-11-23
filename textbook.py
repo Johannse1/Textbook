@@ -14,8 +14,13 @@ class Book():
     def textbook(self):
         print(f"{self.title}, {self.author}, {self.edition}, {self.number}, {}")
 
-    def quantity(self, inventory, add, deduct):
-        self.inventory = inventory
-        self.add = add
-        self.deduct = deduct
+    def add(self,qty):
+        self.quantity = self.quantity + qty
+
+    def deduct(self,qty):
+        if self.quantity >= qty:
+            self.quantity = self.quantity - qty
+            return 0
+        else
+            return 1
 
